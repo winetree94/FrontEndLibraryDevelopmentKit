@@ -20,6 +20,7 @@ const config: Configuration = {
     minimize: true,
     minimizer: [new TerserPlugin()],
   },
+  devtool: 'source-map',
   target: ['web', 'es5'],
   mode: 'production',
   entry: './src/index.ts',
@@ -27,7 +28,7 @@ const config: Configuration = {
     library: 'LibraryName',
     libraryTarget: 'umd',
     libraryExport: 'default',
-    path: path.resolve(__dirname, './dist'),
+    path: path.resolve(__dirname, './dist/bundle'),
     filename: 'library-name.js',
   },
 };

@@ -1,1 +1,0 @@
-!function(e,t){"object"==typeof exports&&"object"==typeof module?module.exports=t():"function"==typeof define&&define.amd?define([],t):"object"==typeof exports?exports.LibraryName=t():e.LibraryName=t()}(self,(function(){return function(){"use strict";var e={};return function(){var t=e;t.default=class{constructor(){console.log(1)}}}(),e=e.default}()}));
